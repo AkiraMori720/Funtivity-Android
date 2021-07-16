@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543423061769",
+    "project_id": "funtivity-c691e",
+    "storage_bucket": "funtivity-c691e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543423061769:android:42488bb3cde18b3168bdd8",
+        "android_client_info": {
+          "package_name": "com.brainyapps.funtivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543423061769-j9s4uofk6k46q6b11vu0mq7tgv4s3kph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brainyapps.funtivity",
+            "certificate_hash": "3bce41820da2c66e5f48c6f4c604154bb20244e3"
+          }
+        },
+        {
+          "client_id": "543423061769-d9r2rv8t2bqom533um8q1k0gvhds5010.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDULnswRdBqiZpCMVx9_QfEUJ45Pr-O8ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543423061769-d9r2rv8t2bqom533um8q1k0gvhds5010.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

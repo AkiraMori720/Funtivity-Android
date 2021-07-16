@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_meetup"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/textsize_large"/>
+            <TextView
+                android:id="@+id/txt_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/textsize_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:orientation="horizontal" >
+                <com.brainyapps.funtivity.ui.view.MySquareImageView
+                    android:id="@+id/img_photo_a"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <LinearLayout
+                    android:layout_width="@dimen/image_large"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:orientation="vertical" >
+                    <com.brainyapps.funtivity.ui.view.MySquareImageView
+                        android:id="@+id/img_photo_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_large" />
+                    <com.brainyapps.funtivity.ui.view.MySquareImageView
+                        android:id="@+id/img_photo_c"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_large"
+                        android:layout_marginTop="@dimen/margin_normal"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/textsize_small" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <com.brainyapps.funtivity.ui.view.CircleImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="@dimen/image_small"
+                    android:layout_height="@dimen/image_small" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/image_very_small"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textsize_normal" />
+                    <TextView
+                        android:id="@+id/txt_creator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meetup_creator"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/textsize_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_join"
+            style="@style/normalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_requests"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@color/orange" />
+        <LinearLayout
+            android:id="@+id/layout_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:orientation="vertical" />
+        <TextView
+            android:id="@+id/txt_interested"
+            style="@style/normalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interested"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@color/orange" />
+        <LinearLayout
+            android:id="@+id/layout_interested"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_normal"
+            android:paddingRight="@dimen/margin_normal"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- draw -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="transparent_white">#80ffffff</color>
+
+    <color name="red">#ea4335</color>
+    <color name="orange_dark">#d6591e</color>
+    <color name="orange">#f26522</color>
+    <color name="orange_light">#fa8e5b</color>
+    <color name="blue">#2d7fee</color>
+    <color name="blue_dark">#00387f</color>
+    <color name="gray">#e3e3e3</color>
+    <color name="green">#21b632</color>
+    <color name="gray_light">#fdf8f8</color>
+
+    <color name="theme_a">#f26522</color>
+    <color name="theme_a_light">#ffcfb8</color>
+    <color name="theme_b">#9055a2</color>
+    <color name="theme_b_light">#d499b9</color>
+    <color name="theme_c">#8cd790</color>
+    <color name="theme_c_light">#d7fff1</color>
+    <color name="theme_d">#30a9de</color>
+    <color name="theme_d_light">#efdc05</color>
+    <color name="theme_e">#d09e88</color>
+    <color name="theme_e_light">#fadad8</color>
+    <color name="theme_f">#d81159</color>
+    <color name="theme_f_light">#ffbc42</color>
+
+    <!-- Text -->
+    <color name="text_normal">#3b3b3b</color>
+    <color name="text_light">#5a5a5a</color>
+    <color name="text_blue">#8d9bb9</color>
+
+</resources>

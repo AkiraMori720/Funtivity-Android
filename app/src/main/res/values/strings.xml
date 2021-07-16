@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App name -->
+    <string name="app_name">Funtivity</string>
+    <string name="gcm_sender_id">id:543423061769</string>
+    <string name="facebook_app_id">125701149404527</string>
+    <string name="fb_login_protocol_scheme">fb125701149404527</string>
+    <string name="notification_channel_id" translatable="false">funtivity_channel_id</string>
+    <string name="notification_channel_name" translatable="true">funtivity_channel_name</string>
+    <!-- Common String -->
+    <string name="CANCEL">CANCEL</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="Error">Error</string>
+    <string name="CONFIRM">CONFIRM</string>
+    <string name="NA">N/A</string>
+    <string name="NO">NO</string>
+    <string name="OK">OK</string>
+    <string name="Okay">Okay</string>
+    <string name="Success">Success</string>
+    <string name="Warning">Warning</string>
+    <string name="YES">YES</string>
+    <string name="delete">Delete</string>
+    <!-- On board -->
+    <string name="on_board_a">Welcome\nTo Funtivity</string>
+    <string name="on_board_b">If you\'re looking to meet someone to do any activity like fishing, sports, yoga, etc.\nIn your area then you have come to the right app</string>
+    <string name="on_board_c">Sign up now and start meeting other people!</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="skip">Skip</string>
+    <string name="do_not_show_again">Don\'t show again</string>
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="lets_go">Let\'s Go</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><![CDATA[<u>Forgot Password?<u>]]></string>
+    <string name="not_registered_sign_up">Not registered? <![CDATA[<b><u>Sign Up!</u></b>]]></string>
+    <string name="valid_No_email_password">Please enter your email and password.</string>
+    <string name="valid_No_email">Please enter email.</string>
+    <string name="valid_Invalid_email">Email address is invalid.</string>
+    <string name="valid_No_password">Please enter password.</string>
+    <string name="banned_label">Sorry, you are banned.</string>
+    <string name="admin_account_label">This is admin account. Please use web admin panel.</string>
+    <string name="invalid_incorrect_password">Password entered is incorrect.</string>
+    <string name="social_login_success">You have successfully logged in.</string>
+    <string name="invalid_social_login">Error encountered during authentication. Please try again.</string>
+    <string name="valid_Invalid_register_email">Your email address is already registered.</string>
+    <!-- Reset Password -->
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_label">Put in your email address so we can send you a password reset link.</string>
+    <string name="success_forgot_password">We have sent a password reset link to your email.</string>
+    <!-- Sign up -->
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="already_have_account_sign_in">Already have an account? <![CDATA[<b><u>Sign In</u></b>]]></string>
+    <string name="valid_No_first_name">Please enter your first name.</string>
+    <string name="valid_No_last_name">Please enter your last name.</string>
+    <string name="valid_Invalid_short_password">Password should be at least 6 characters.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="valid_No_confirm_password">Please enter confirm password.</string>
+    <string name="valid_Invalid_password">Passwords do not match. Please check and try again</string>
+    <string name="successfully_register">You have successfully register.</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="take_new_photo">Take a new photo</string>
+    <string name="select_gallery">Select from gallery</string>
+    <!-- Main -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="search">Search</string>
+    <string name="messages">Messages</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="label_log_out">Are you sure you want to log out?</string>
+    <string name="all_meetups">All Meetups</string>
+    <string name="private_">Private</string>
+    <string name="my_meetups">My Meetups</string>
+    <string name="no_meetup">No Meetup</string>
+    <string name="no_user">No User</string>
+    <string name="no_friend">No Friend</string>
+    <string name="no_message">No Message</string>
+    <string name="no_notification">No Notification</string>
+    <!-- Meetup Register -->
+    <string name="create_meetup">Create Meetup</string>
+    <string name="edit_meetup">Edit Meetup</string>
+    <string name="meetup_name">Meetup Name</string>
+    <string name="activity_category">Activity Category</string>
+    <string name="dd_mm_yy">MM/dd/YY</string>
+    <string name="hh_mm_am">HH:MM AM</string>
+    <string name="number_guests">Number of Guests</string>
+    <string name="sex">Sex</string>
+    <string name="description">Description</string>
+    <string name="kind">Kind</string>
+    <string name="age_bracket">Age Bracket</string>
+    <string name="upload_photos">Upload Photos</string>
+    <string name="tap_upload_photos">Tap to Upload Photos</string>
+    <string name="valid_No_meetup_name">Please enter meetup name.</string>
+    <string name="valid_No_activity_category">Please enter activity category.</string>
+    <string name="valid_No_date">Please enter date.</string>
+    <string name="valid_No_time">Please enter time.</string>
+    <string name="valid_Invalid_date_current">Date must be =&gt; Current Date.</string>
+    <string name="valid_No_guests">Please enter number of guests.</string>
+    <string name="valid_No_sex">Please choose sex.</string>
+    <string name="valid_No_description">Please enter description.</string>
+    <string name="valid_No_kind">Please choose kind.</string>
+    <string name="valid_No_photo">Please choose photo.</string>
+    <string name="confirm_delete_meetup">Are you sure you want to delete this meetup?</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="choose_sex">Choose Sex</string>
+    <string name="choose_kind">Choose Kind</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <!-- Meetup Detail -->
+    <string name="meetup_creator">Meetup Creator</string>
+    <string name="interested">Interested</string>
+    <string name="going">Going</string>
+    <string name="join_requests">Join Requests</string>
+    <string name="ratings_reviews">Ratings and Reviews</string>
+    <string name="write_review_"><![CDATA[<u>Write Review</u>]]></string>
+    <!-- Review -->
+    <string name="write_review">Write Review</string>
+    <string name="write_a_review">Write a review</string>
+    <string name="tap_star_rate">Tap a star to rate</string>
+    <string name="type_something_here">Type something here…</string>
+    <string name="tap_upload_photo_video">Tap to Upload Photo or Video</string>
+    <string name="tap_upload_photo">Tap to Upload Photo</string>
+    <string name="valid_No_message">Please enter message.</string>
+    <string name="valid_No_rate">Please tap a star to rate.</string>
+    <!-- Activites -->
+    <string name="activies">Activies</string>
+    <string name="outdoor_activities">Outdoor Activities</string>
+    <string name="view_all_meetups">View All Joined Meetups</string>
+    <string name="view_all_messages">View All Messages</string>
+    <!-- Profile -->
+    <string name="add_friends">Add to Friends</string>
+    <string name="remove_friend">Remove Friend</string>
+    <string name="send_message">Send a Message</string>
+    <!-- Message -->
+    <string name="confirm_delete_message">Are you sure you want to delete this message?</string>
+    <string name="enter_message">Enter message here</string>
+    <string name="insert_message">Please enter message.</string>
+    <string name="valid_Invalid_message_long">Message is too long. Please check and try again.</string>
+    <string name="notification_chat">%1$s sent new message: %2$s</string>
+    <!-- Report -->
+    <string name="report">Report</string>
+    <string name="post">Post</string>
+    <string name="enter_text">Please enter text…</string>
+    <string name="valid_No_text">Please enter text.</string>
+    <!-- Notification -->
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="tap_to_go_event_details">Tap to go to Event Details.</string>
+    <string name="notification_friend_request">%1$s sent friend request.</string>
+    <string name="notification_friend_accepted">%1$s accepted your friend request.</string>
+    <string name="notification_friend_declined">%1$s declined your friends request.</string>
+    <string name="notification_interested_event">%1$s is interested in an event!</string>
+    <string name="notification_join_request">%1$s sent join request.</string>
+    <string name="notification_join_accepted">%1$s accepted your join request.</string>
+    <string name="notification_join_declined">%1$s declined your join request.</string>
+    <string name="notification_friend_remove">%1$s has removed you as friend.</string>
+    <!-- Settings -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="rate_app">Rate App</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="about_app">About the App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="choose_theme">Choose Theme</string>
+    <!-- Edit Profile -->
+    <string name="upload_photo_"><![CDATA[<u>Upload Photo</u>]]></string>
+    <string name="interests">Interests</string>
+    <string name="location">Location</string>
+    <string name="age">Age</string>
+    <string name="bio">Bio</string>
+    <string name="valid_No_interests">Please enter your interests.</string>
+    <string name="valid_No_location">Please enter your location.</string>
+    <string name="valid_No_age">Please enter your age.</string>
+    <string name="valid_No_bio">Please enter your bio.</string>
+    <string name="save">Save</string>
+    <!-- About -->
+    <string name="about_label">"
+        <![CDATA[
+            <p>Funtivity is a social networking app for enthusiasts of fun and outdoor activities seeking for other individuals who shares similar likes and objective. The app enables user to meet other people to do activities such as but not limited to watching or playing sports, fitness, food & beverage, movies, music & art, health & beauty and outdoor activities including camping, hiking, fishing, yoga, etc.</p>
+            <p>A list of meetup events within the area are available for users to view and attend. Meteups may be created, made private and public. The meetup event’s details, event author, participants and friends list can be viewed within the app. Users may select one or more activity categories for the meetup and can even send the invitations again to remind attendees of the upcoming meetup. A messaging function, list of events user is invited to, voice call and video call function are also ready for users to make use of.</p>
+            <p>After an event, users has the option to write reviews and attach photos and videos of the event. Users can choose profile themes with 8 colors/font themes targeting men, women, sports fans, beauty, fashion and others.</p>
+        ]]>
+    "</string>
+    <string name="privacy_label">"
+        <![CDATA[
+            <h1>Privacy Policy</h1>
+            <p>Last updated: June 10, 2021</p>
+            <p>Funtivity (“we” or “us” or “our”) respects the privacy of our users (“user” or “you”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our mobile application (the “Application”).   Please read this Privacy Policy carefully.  IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS THE APPLICATION.</p>
+            <p>We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.</p>
+            <p>This Privacy Policy does not apply to the third-party online/mobile store from which you install the Application or make payments, including any in-game virtual items, which may also collect and use data about you.  We are not responsible for any of the data collected by any such third party.</p>
+            <h2>COLLECTION OF YOUR INFORMATION</h2>
+            <p>We may collect information about you in a variety of ways.  The information we may collect via the Application depends on the content and materials you use, and includes:</p>
+            <h3>Personal Data</h3>
+            <p>Demographic and other personally identifiable information (such as your name and email address) that you voluntarily give to us when choosing to participate in various activities related to the Application, such as chat, posting messages in comment sections or in our forums, liking posts, sending feedback, and responding to surveys.  If you choose to share data about yourself via your profile, online chat, or other interactive areas of the Application, please be advised that all data you disclose in these areas is public and your data will be accessible to anyone who accesses the Application.</p>
+            <h3>Derivative Data</h3>
+            <p>Information our servers automatically collect when you access the Application, such as your native actions that are integral to the Application, including liking, re-blogging, or replying to a post, as well as other interactions with the Application and other users via server log files.</p>
+            <h3>Financial Data</h3>
+            <p>Financial information, such as data related to your payment method (e.g. valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the Application. [We store only very limited, if any, financial information that we collect. Otherwise, all financial information is stored by our payment processor, Stripe, and you are encouraged to review their privacy policy and contact them directly for responses to your questions.</p>
+            <h3>Facebook Permissions</h3>
+            <p>The Application may by default access your Facebook basic account information, including your name, email, gender, birthday, current city, and profile picture URL, as well as other information that you choose to make public. We may also request access to other permissions related to your account, such as friends, checkins, and likes, and you may choose to grant or deny us access to each individual permission. For more information regarding Facebook permissions, refer to the Facebook Permissions Reference page.</p>
+            <h3>Data from Social Networks</h3>
+            <p>User information from social networking sites, such as [Apple’s Game Center, Facebook, Google+ Instagram, Pinterest, Twitter], including your name, your social network username, location, gender, birth date, email address, profile picture, and public data for contacts, if you connect your account to such social networks. This information may also include the contact information of anyone you invite to use and/or join the Application.</p>
+            <h3>Geo-Location Information</h3>
+            <p>We may request access or permission to and track location-based information from your mobile device, either continuously or while you are using the Application, to provide location-based services. If you wish to change our access or permissions, you may do so in your device’s settings.</p>
+            <h3>Mobile Device Access</h3>
+            <p>We may request access or permission to certain features from your mobile device, including your mobile device’s [bluetooth, calendar, camera, contacts, microphone, reminders, sensors, SMS messages, social media accounts, storage,] and other features. If you wish to change our access or permissions, you may do so in your device’s settings.</p>
+            <h3>Mobile Device Data</h3>
+            <p>Device information such as your mobile device ID number, model, and manufacturer, version of your operating system, phone number, country, location, and any other data you choose to provide.</p>
+            <h3>Push Notifications</h3>
+            <p>We may request to send you push notifications regarding your account or the Application. If you wish to opt-out from receiving these types of communications, you may turn them off in your device’s settings.</p>
+            <h3>Third-Party Data</h3>
+            <p>Information from third parties, such as personal information or network friends, if you connect your account to the third party and grant the Application permission to access this information.</p>
+            <h3>Data From Contests, Giveaways, and Surveys</h3>
+            <p>Personal and other information you may provide when entering contests or giveaways and/or responding to surveys.</p>
+            <h2>USE OF YOUR INFORMATION</h2>
+            <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience.  Specifically, we may use information collected about you via the Application to:</p>
+            <ul>
+                <p>1. Administer sweepstakes, promotions, and contests.</p>
+                <p>2. Assist law enforcement and respond to subpoena.</p>
+                <p>3. Compile anonymous statistical data and analysis for use internally or with third parties.</p>
+                <p>4. Create and manage your account.</p>
+                <p>5. Deliver targeted advertising, coupons, newsletters, and other information regarding promotions and the Application to you.</p>
+                <p>6. Email you regarding your account or order.</p>
+                <p>7. Enable user-to-user communications.</p>
+                <p>8. Fulfill and manage purchases, orders, payments, and other transactions related to the Application.</p>
+                <p>9. Generate a personal profile about you to make future visits to the Application more personalized.</p>
+                <p>10. Increase the efficiency and operation of the Application.</p>
+                <p>11. Monitor and analyze usage and trends to improve your experience with the Application.</p>
+                <p>12. Notify you of updates to the Application.</p>
+                <p>13. Offer new products, services, mobile applications, and/or recommendations to you.</p>
+                <p>14. Perform other business activities as needed.</p>
+                <p>15. Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</p>
+                <p>16. Process payments and refunds.</p>
+                <p>17. Request feedback and contact you about your use of the Application.</p>
+                <p>18. Resolve disputes and troubleshoot problems.</p>
+                <p>19. Respond to product and customer service requests.</p>
+                <p>20. Send you a newsletter.</p>
+                <p>21. Solicit support for the Application.</p>
+                <p>22. [Other]</p>
+            </ul>
+            <h2>DISCLOSURE OF YOUR INFORMATION</h2>
+            <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows:</p>
+            <h3>By Law or to Protect Rights</h3>
+            <p>If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.  This includes exchanging information with other entities for fraud protection and credit risk reduction.</p>
+            <h3>Third-Party Service Providers</h3>
+            <p>We may share your information with third parties that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance.</p>
+            <h3>Marketing Communications</h3>
+            <p>With your consent, or with an opportunity for you to withdraw consent, we may share your information with third parties for marketing purposes, as permitted by law.</p>
+            <h3>Interactions with Other Users</h3>
+            <p>If you interact with other users of the Application, those users may see your name, profile photo, and descriptions of your activity, including sending invitations to other users, chatting with other users, liking posts, following blogs.</p>
+            <h3>Online Postings</h3>
+            <p>When you post comments, contributions or other content to the Applications, your posts may be viewed by all users and may be publicly distributed outside the Application in perpetuity</p>
+            <h3>Third-Party Advertisers</h3>
+            <p>We may use third-party advertising companies to serve ads when you visit the Application. These companies may use information about your visits to the Application and other websites that are contained in web cookies in order to provide advertisements about goods and services of interest to you.</p>
+            <h3>Affiliates</h3>
+            <p>We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include our parent company and any subsidiaries, joint venture partners or other companies that we control or that are under common control with us.</p>
+            <h3>Business Partners</h3>
+            <p>We may share your information with our business partners to offer you certain products, services or promotions.</p>
+            <h3>Offer Wall</h3>
+            <p>The Application may display a third-party-hosted “offer wall.”  Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for acceptance and completion of an advertisement offer.  Such an offer wall may appear in the Application and be displayed to you based on certain data, such as your geographic area or demographic information.  When you click on an offer wall, you will leave the Application.  A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account.</p>
+            <h3>Social Media Contacts</h3>
+            <p>If you connect to the Application through a social network, your contacts on the social network will see your name, profile photo, and descriptions of your activity.</p>
+            <h3>Other Third Parties</h3>
+            <p>We may share your information with advertisers and investors for the purpose of conducting general business analysis. We may also share your information with such third parties for marketing purposes, as permitted by law.</p>
+            <h3>Sale or Bankruptcy</h3>
+            <p>If we reorganize or sell all or a portion of our assets, undergo a merger, or are acquired by another entity, we may transfer your information to the successor entity.  If we go out of business or enter bankruptcy, your information would be an asset transferred or acquired by a third party.  You acknowledge that such transfers may occur and that the transferee may decline honor commitments we made in this Privacy Policy.</p>
+            <p>We are not responsible for the actions of third parties with whom you share personal or sensitive data, and we have no authority to manage or control third-party solicitations.  If you no longer wish to receive correspondence, emails or other communications from third parties, you are responsible for contacting the third party directly.</p>
+            <h2>TRACKING TECHNOLOGIES</h2>
+            <h3>Cookies and Web Beacons</h3>
+            <p>We may use cookies, web beacons, tracking pixels, and other tracking technologies on the Application to help customize the Application and improve your experience. When you access the Application, your personal information is not collected through the use of tracking technology. Most browsers are set to accept cookies by default. You can remove or reject cookies, but be aware that such action could affect the availability and functionality of the Application. You may not decline web beacons. However, they can be rendered ineffective by declining all cookies or by modifying your web browser’s settings to notify you each time a cookie is tendered, permitting you to accept or decline cookies on an individual basis.</p>
+            <h3>Internet-Based Advertising</h3>
+            <p>Additionally, we may use third-party software to serve ads on the Application, implement email marketing campaigns, and manage other interactive marketing initiatives.  This third-party software may use cookies or similar tracking technology to help manage and optimize your online experience with us.  For more information about opting-out of interest-based ads, visit the Network Advertising Initiative Opt-Out Tool or Digital Advertising Alliance Opt-Out Tool.</p>
+            <h2>THIRD-PARTY WEBSITES</h2>
+            <p>The Application may contain links to third-party websites and applications of interest, including advertisements and external services, that are not affiliated with us. Once you have used these links to leave the Application, any information you provide to these third parties is not covered by this Privacy Policy, and we cannot guarantee the safety and privacy of your information. Before visiting and providing any information to any third-party websites, you should inform yourself of the privacy policies and practices (if any) of the third party responsible for that website, and should take those steps necessary to, in your discretion, protect the privacy of your information. We are not responsible for the content or privacy and security practices and policies of any third parties, including other sites, services or applications that may be linked to or from the Application.</p>
+            <h2>SECURITY OF YOUR INFORMATION</h2>
+            <p>We use administrative, technical, and physical security measures to help protect your personal information.  While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.  Any information disclosed online is vulnerable to interception and misuse by unauthorized parties.  Therefore, we cannot guarantee complete security if you provide personal information.</p>
+            <h2>POLICY FOR CHILDREN</h2>
+            <p>We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us using the contact information provided below.</p>
+            <h2>CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
+            <p>Most web browsers and some mobile operating systems [and our mobile applications] include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected.  No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online.  If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Policy.</p>
+            <h2>OPTIONS REGARDING YOUR INFORMATION</h2>
+            <h3>[Account Information</h3>
+            <p>You may at any time review or change the information in your account or terminate your account by:</p>
+            <ul>
+                <p>• Logging into your account settings and updating your account</p>
+                <p>• Contacting us using the contact information provided below</p>
+                <p>• [Other]</p>
+            </ul>
+            <p>Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements.]</p>
+            <h3>Emails and Communications</h3>
+            <p>If you no longer wish to receive correspondence, emails, or other communications from us, you may opt-out by:</p>
+            <ul>
+                <p>• Noting your preferences at the time you register your account with the Application</p>
+                <p>• Logging into your account settings and updating your preferences.</p>
+                <p>• Contacting us using the contact information provided below</p>
+            </ul>
+            <p>If you no longer wish to receive correspondence, emails, or other communications from third parties, you are responsible for contacting the third party directly.</p>
+            <h2>CALIFORNIA PRIVACY RIGHTS</h2>
+            <p>California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.</p>
+            <p>If you are under 18 years of age, reside in California, and have a registered account with the Application, you have the right to request removal of unwanted data that you publicly post on the Application. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California.  We will make sure the data is not publicly displayed on the Application, but please be aware that the data may not be completely or comprehensively removed from our systems.</p>
+            <h2>CONTACT US</h2>
+            <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+            <p>Funtivity</p>
+            <p>1529 W Springer St</p>
+            <p>Beeville. Tx 78102</p>
+            <p>361-318-8007</p>
+            <p>Funtivity75@yahoo.com</p>
+        ]]>
+    "</string>
+    <string name="terms_label">"
+        <![CDATA[
+            <h1>Terms and Conditions</h1>
+            <p>Last updated: June 10, 2021</p>
+            <h3>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY</h3>
+            <h2>AGREEMENT TO TERMS</h2>
+            <p>These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and [Funtivity] (“we,” “us” or “our”), concerning your access to and use of the [Funtivity] mobile application as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “App”). You agree that by accessing the App, you have read, understood, and agree to be bound by all of these Terms and Conditions Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS and CONDITIONS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.</p>
+            <p>Supplemental terms and conditions or documents that may be posted on the App from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms and Conditions at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms and Conditions and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms and Conditions to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms and Conditions by your continued use of the App after the date such revised Terms are posted.</p>
+            <p>The information provided on the App is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the App from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.</p>
+            <p>The App is intended for users who are at least 18 years old. Persons under the age of 13 are not permitted to register for the App.</p>
+            <h2>INTELLECTUAL PROPERTY RIGHTS</h2>
+            <p>Unless otherwise indicated, the App is our proprietary property and all source code, databases, functionality, software, webapp designs, audio, video, text, photographs, and graphics on the App (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, foreign jurisdictions, and international conventions. The Content and the Marks are provided on the App “AS IS” for your information and personal use only. Except as expressly provided in these Terms of Use, no part of the App and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
+            <p>Provided that you are eligible to use the App, you are granted a limited license to access and use the App and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to the App, Content and the Marks.</p>
+            <h2>USER REPRESENTATIONS</h2>
+            <p>By using the App, you represent and warrant that: [(1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary;] (3) you have the legal capacity and you agree to comply with these Terms of Use; [(4) you are not under the age of 13;] (5) not a minor in the jurisdiction in which you reside[, or if a minor, you have received parental permission to use the App]; (6) you will not access the App through automated or non-human means, whether through a bot, script or otherwise; (7) you will not use the App for any illegal or unauthorized purpose; and (8) your use of the App will not violate any applicable law or regulation.</p>
+            <p>If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the App (or any portion thereof).</p>
+            <h2>USER REGISTRATION</h2>
+            <p>You may be required to register with the App. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable.</p>
+            <h2>PROHIBITED ACTIVITIES</h2>
+            <p>You may not access or use the App for any purpose other than that for which we make the App available. The App may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.</p>
+            <p>As a user of the App, you agree not to:</p>
+            <p>1. systematically retrieve data or other content from the App to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</p>
+            <p>2. make any unauthorized use of the App, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</p>
+            <p>3. use a buying agent or purchasing agent to make purchases on the App.</p>
+            <p>4. use the App to advertise or offer to sell goods and services.</p>
+            <p>5. circumvent, disable, or otherwise interfere with security-related features of the App, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the App and/or the Content contained therein.</p>
+            <p>6. engage in unauthorized framing of or linking to the App.</p>
+            <p>7. trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords;</p>
+            <p>8. make improper use of our support services or submit false reports of abuse or misconduct.</p>
+            <p>9. engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.</p>
+            <p>10. interfere with, disrupt, or create an undue burden on the App or the networks or services connected to the App.</p>
+            <p>11. attempt to impersonate another user or person or use the username of another user.</p>
+            <p>12. sell or otherwise transfer your profile.</p>
+            <p>13. use any information obtained from the App in order to harass, abuse, or harm another person.</p>
+            <p>14. use the App as part of any effort to compete with us or otherwise use the App and/or the Content for any revenue-generating endeavor or commercial enterprise.</p>
+            <p>15. decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the App.</p>
+            <p>16. attempt to bypass any measures of the App designed to prevent or restrict access to the App, or any portion of the App.</p>
+            <p>17. harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the App to you.</p>
+            <p>18. delete the copyright or other proprietary rights notice from any Content.</p>
+            <p>19. copy or adapt the App’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.</p>
+            <p>20. upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the App or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the App.</p>
+            <p>21. upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”).</p>
+            <p>22. except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the App, or using or launching any unauthorized script or other software.</p>
+            <p>23. disparage, tarnish, or otherwise harm, in our opinion, us and/or the App.</p>
+            <p>24. use the App in a manner inconsistent with any applicable laws or regulations.</p>
+            <p>25. [other]</p>
+            <h3>USER GENERATED CONTRIBUTIONS</h3>
+            <p>The App may invite you to chat, contribute to, or participate in blogs, message boards, online forums, and other functionality, and may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the App, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, "Contributions"). Contributions may be viewable by other users of the App and through third-party webapps. As such, any Contributions you transmit may be treated as non-confidential and non-proprietary. When you create or make available any Contributions, you thereby represent and warrant that:</p>
+            <p>1. the creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party.</p>
+            <p>2. you are the creator and owner of or have the necessary licenses, rights, consents, releases, and permissions to use and to authorize us, the App, and other users of the App to use your Contributions in any manner contemplated by the App and these Terms of Use.</p>
+            <p>3. you have the written consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the App and these Terms of Use.</p>
+            <p>4. your Contributions are not false, inaccurate, or misleading.</p>
+            <p>5. your Contributions are not unsolicited or unauthorized advertising, promotional materials, pyramid schemes, chain letters, spam, mass mailings, or other forms of solicitation.</p>
+            <p>6. your Contributions are not obscene, lewd, lascivious, filthy, violent, harassing, libelous, slanderous, or otherwise objectionable (as determined by us).</p>
+            <p>7. your Contributions do not ridicule, mock, disparage, intimidate, or abuse anyone.</p>
+            <p>8. your Contributions do not advocate the violent overthrow of any government or incite, encourage, or threaten physical harm against another.</p>
+            <p>9. your Contributions do not violate any applicable law, regulation, or rule.</p>
+            <p>10. your Contributions do not violate the privacy or publicity rights of any third party.</p>
+            <p>11. your Contributions do not contain any material that solicits personal information from anyone under the age of 18 or exploits people under the age of 18 in a sexual or violent manner.</p>
+            <p>12. your Contributions do not violate any federal or state law concerning child pornography, or otherwise intended to protect the health or well-being of minors;</p>
+            <p>13. your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference, or physical handicap.</p>
+            <p>14. your Contributions do not otherwise violate, or link to material that violates, any provision of these Terms of Use, or any applicable law or regulation.</p>
+            <p>Any use of the App in violation of the foregoing violates these Terms of Use and may result in, among other things, termination or suspension of your rights to use the App.</p>
+        ]]>
+    "</string>
+    <!-- Message -->
+    <string name="msg_exit_label">Are you sure you want to exit?</string>
+    <string name="msg_error_network">Oops! Please connect to the internet and try again.</string>
+    <string name="msg_error_permission">Check your permissions in Settings -> Apps -> Funtivity -> Permissions</string>
+
+</resources>

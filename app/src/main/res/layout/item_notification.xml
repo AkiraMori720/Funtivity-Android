@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_normal"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/img_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_done" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@color/text_normal"/>
+        <TextView
+            android:id="@+id/txt_tap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_go_event_details"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@color/text_normal"/>
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_extra_small"
+            android:textColor="@color/text_light"/>
+        <LinearLayout
+            android:id="@+id/layout_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/txt_accept"
+                android:layout_width="@dimen/image_large"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/margin_normal"
+                android:text="@string/accept"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@color/blue" />
+            <TextView
+                android:id="@+id/txt_decline"
+                android:layout_width="@dimen/image_large"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:padding="@dimen/margin_normal"
+                android:text="@string/decline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@color/orange" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

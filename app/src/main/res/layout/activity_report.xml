@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_extra_large"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:scaleType="fitXY">
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/image_very_small"
+        android:textSize="@dimen/textsize_normal"
+        android:textColor="@color/text_normal"
+        android:textColorHint="@color/text_light"
+        android:hint="@string/enter_text"
+        android:minLines="5"
+        android:gravity="top"
+        android:background="@drawable/bg_rectangle_gray_line"/>
+    <Button
+        android:id="@+id/btn_post"
+        style="@style/normalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/post" />
+</LinearLayout>

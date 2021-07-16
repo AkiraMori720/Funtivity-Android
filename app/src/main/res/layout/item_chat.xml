@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/lyFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/image_small"
+        android:orientation="horizontal">
+        <com.brainyapps.funtivity.ui.view.MyAvatarImageView
+            android:id="@+id/imgFriendAvatar"
+            android:layout_width="@dimen/image_small"
+            android:layout_height="@dimen/image_small" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:padding="@dimen/image_very_small"
+            android:orientation="vertical"
+            android:background="@drawable/bg_chat_friend">
+            <TextView
+                android:id="@+id/txtFriendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal" />
+            <TextView
+                android:id="@+id/txtFriendCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/textsize_extra_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/image_large"
+        android:gravity="right"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/bg_chat_my"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_normal">
+            <TextView
+                android:id="@+id/txtMyMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal" />
+            <TextView
+                android:id="@+id/txtMyCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_large"
+                android:textColor="@color/gray_light"
+                android:textSize="@dimen/textsize_extra_small" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

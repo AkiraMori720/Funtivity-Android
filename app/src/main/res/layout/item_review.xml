@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_normal"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <com.brainyapps.funtivity.ui.view.CircleImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="@dimen/image_small"
+            android:layout_height="@dimen/image_small" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/image_very_small"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_normal"
+                android:textSize="@dimen/textsize_normal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/txt_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_light"
+                    android:textSize="@dimen/textsize_small"/>
+                <com.hedgehog.ratingbar.RatingBar
+                    android:id="@+id/rating_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:gravity="center_horizontal"
+                    hedgehog:clickable="false"
+                    hedgehog:halfstart="false"
+                    hedgehog:starCount="5"
+                    hedgehog:starEmpty="@drawable/ic_rate_unselect"
+                    hedgehog:starFill="@drawable/ic_rate_select"
+                    hedgehog:starImageHeight="@dimen/margin_large"
+                    hedgehog:starImageWidth="@dimen/margin_large"
+                    hedgehog:starImagePadding="@dimen/margin_very_small" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/textsize_small"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.brainyapps.funtivity.ui.view.MySquareImageView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginTop="@dimen/margin_normal"/>
+</LinearLayout>

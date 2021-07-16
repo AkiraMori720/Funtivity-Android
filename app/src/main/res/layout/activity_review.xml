@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/margin_large"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <TextView
+            style="@style/normalText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_light"
+            android:text="@string/tap_star_rate" />
+        <com.hedgehog.ratingbar.RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            hedgehog:clickable="true"
+            hedgehog:halfstart="false"
+            hedgehog:starCount="5"
+            hedgehog:starEmpty="@drawable/ic_rate_unselect"
+            hedgehog:starFill="@drawable/ic_rate_select"
+            hedgehog:starImageHeight="@dimen/image_extra_small"
+            hedgehog:starImageWidth="@dimen/image_extra_small"
+            hedgehog:starImagePadding="@dimen/margin_small" />
+    </LinearLayout>
+    <TextView
+        style="@style/normalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:text="@string/write_a_review" />
+    <EditText
+        android:id="@+id/edt_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/type_something_here"
+        android:padding="@dimen/image_very_small"
+        android:textSize="@dimen/textsize_normal"
+        android:textColor="@color/text_normal"
+        android:textColorHint="@color/text_light"
+        android:background="@color/transparent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_light" />
+    <com.brainyapps.funtivity.ui.view.MySquareImageView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height" />
+    <TextView
+        android:id="@+id/txt_upload"
+        style="@style/normalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/image_very_small"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:text="@string/tap_upload_photo"
+        android:background="@drawable/bg_upload" />
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/normalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:text="@string/save"
+        android:background="@color/blue"/>
+</LinearLayout>
